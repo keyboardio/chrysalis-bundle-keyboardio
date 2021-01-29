@@ -37,7 +37,7 @@ import usb from "usb";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import KeyboardSelect from "./screens/KeyboardSelect";
+import { KeyboardSelect } from "./screens/KeyboardSelect/index";
 import FirmwareUpdate from "./screens/FirmwareUpdate";
 import Editor from "./screens/Editor/Editor";
 import Preferences from "./screens/Preferences";
